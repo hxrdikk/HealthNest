@@ -89,6 +89,21 @@ npm run dev
 }
 ```
 
+<!-- ~screenshots  -->
+<h3 align="left"> 🖼️ Screenshots :</h3>
+ 
+1. 🏥 Dashboard
+
+~ Get a complete overview of your health with quick access to appointments, medications, upcoming tests, notifications, and real-time health metrics (blood pressure, weight, glucose levels, and heart rate). Track your daily medication adherence and view personalized health insights.
+
+![Dashboard](./public/dashboard.png)  
+
+2. 🏠 Home Page
+
+~ A welcoming entry point that introduces HealthNest as your all-in-one healthcare platform. Users can easily navigate to appointments, medication management, and telemedicine services, while being reassured with trust signals like HIPAA compliance and user ratings.
+
+![Home](./public/home.png)  
+
 <!-- ~project structure -->
 <h3 align="left"> 🏗 Project Structure:</h3>
 
