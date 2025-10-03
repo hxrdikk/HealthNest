@@ -5,14 +5,19 @@
 
 <div style="margin-top:12px;"></div> 
 
-<!-- ~about project -->
-<h3 align="left"> ✨ About the project:</h3>
+<!-- ~about this project -->
+<h3 align="left"> ✨ About this project:</h3>
 
 <div style="margin-top:12px;"></div> 
 
 - HealthNest is a modern, full-stack healthcare web application designed to make access to healthcare simple, seamless, and secure. It brings together telemedicine, medication tracking, electronic health records (EHR), and patient management into one intuitive platform.
 
 - With HealthNest, patients can book appointments, consult doctors online, track medications, and securely access their medical history. Meanwhile, doctors and administrators can verify providers, manage patients, and oversee healthcare workflows from dedicated dashboards.
+
+<!-- ~vision -->
+<h3 align="left"> 💡 Vision:</h3>
+
+~ HealthNest was built with the vision of making healthcare more accessible and efficient. By leveraging modern web technologies and cloud platforms, it provides patients, doctors, and administrators with the tools they need for connected, secure, and data-driven healthcare delivery.
 
 <!-- ~features -->
 <h3 align="left"> 🧩 Features:</h3>
@@ -67,13 +72,14 @@ npm run dev
 <!-- ~deployment -->
 <h3 align="left"> 🚀 Deployment:</h3>
 
-~ HealthNest is currently deployed on **Vercel** → [health-nest-fawn.vercel.app](https://health-nest-fawn.vercel.app)
+~ HealthNest is currently deployed on Vercel → [health-nest-fawn.vercel.app](https://health-nest-fawn.vercel.app)
 
 - Deploy your own instance:
   
     - Push your code to GitHub
     - Import the repo into Vercel
     - Add Firebase environment variables under Project → Settings → Environment Variables
+    - Add necessary dependencies in `requirements.txt`
     - Deploy 
 
 ~ For Single-Page Application (SPA) routing with React Router, add a vercel.json file:
@@ -82,11 +88,6 @@ npm run dev
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
 ```
-
-<!-- ~vision -->
-<h3 align="left"> 💡 Vision:</h3>
-
-~ HealthNest was built with the vision of making healthcare more accessible and efficient. By leveraging modern web technologies and cloud platforms, it provides patients, doctors, and administrators with the tools they need for connected, secure, and data-driven healthcare delivery.
 
 <!-- ~project structure -->
 <h3 align="left"> 🏗 Project Structure:</h3>
